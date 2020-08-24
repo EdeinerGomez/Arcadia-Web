@@ -1,0 +1,138 @@
+
+#h4{
+    color: white;
+}
+
+
+#Turismo__Nacional{
+    background: #184893;
+
+}
+
+
+
+
+
+#Promo1{
+    font-size: 25px;
+    font-family: -apple-system;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#Promo2{
+    font-size: 25px;
+    font-family: -apple-system;
+    margin-bottom: -90px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+#Promo{
+    font-size: 30px;
+    transform: rotate(-15deg);
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+#alineacion{
+    transform: rotate(-15deg);
+}
+
+
+.Container1{
+background-image: url(../../Assets/Images/home.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+.Colum{
+    background-color: rgba(37, 44, 255, 0.63);
+    margin-top: 300px;
+    margin-bottom: 400px;
+    padding: 120px 50px;
+    display: flex;
+}
+
+.Col1{
+    font-family: 'Lobster', cursive;
+    background-image: url(../../Assets/Images/brazil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.Col2{
+    font-family: 'Lobster', cursive;
+    background-image: url(../../Assets/Images/chile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.Col3{
+    font-family: 'Lobster', cursive;
+    background-image: url(../../Assets/Images/costa-rica.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.Col4{
+
+    font-family: 'Lobster', cursive;
+    background-image: url(../../Assets/Images/canaima.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.Col5{
+    font-family: 'Lobster', cursive;
+    background-image: url(../../Assets/Images/cuyagua.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+h2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p{
+    color: white;
+}
+
+.boton{
+    background: white;
+    border-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    color: black;
+    font-size: 17px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.boton2{
+    background: red;
+    color: white;
+    border-color: red;
+    margin-left: 30px;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+

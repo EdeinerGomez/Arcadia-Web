@@ -1,0 +1,29 @@
+
+
+
+#Navbar{
+    background: #f9b234;
+    margin-top: -15px;
+
+
+}
+
+.Image__Buscar1{
+    width: 100px;
+}
+
+#text a {
+    font-size: 17px;
+    color: #184893;
+}
+
+#text a:hover{
+    background: #ff9906;
+}
+
+#text1 a {
+    font-size: 17px;
+    color: #006bd1;
+    border-right: 2px solid #006bd1;
+}
+

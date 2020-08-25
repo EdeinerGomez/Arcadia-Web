@@ -7,6 +7,7 @@ import {
 } from "reactstrap/es"
 import "./HomePage.css";
 import Menu from "../../Components/Menu/Menu";
+import "bootstrap";
 
 
 class HomePage extends React.Component{
@@ -14,26 +15,57 @@ class HomePage extends React.Component{
         return(
             <React.Fragment>
                 <Menu/>
-                <Container fluid className="Container1"  >
-                    <Row fluid className="Header">
-                        <Col  lg={1}></Col>
-                        <Col className="Colum"  lg={10}>
-                            
 
-                                <input className="boton" type="text" placeholder="Caracas Venezuela" size="20"></input>
-                                <input  className="boton" type="text"placeholder="Ingresa hacia donde viajas" size="25"></input>
-                                <input  className="boton" type="text" placeholder="ida" size="8"></input>
-                                <input  className="boton" type="text" placeholder="Vuelta" size="8"></input>
-                                <input  className="boton" type="text" placeholder="1 Persona" size="15"></input>
-                                <button className="boton2" type="submit">Buscar</button>
-  
+                <div className="Container-fluid pt-6" id="Header" >
+
+                    < div className="Row pt-5" id="Form1" >
+
+
                         
-                            
-                           
-                        </Col>
-                        <Col lg={1}></Col>
-                    </Row>
-                </Container>
+                        < div className="Col text-center" >
+                        <img className="Image__Buscar1" src={require('../../Assets/Images/avion-blanco.png')} alt="logo arcadia" />
+                       </div>
+
+                    < div className="Col text-center">
+
+                    <input type="checkbox" id="defaultInline2"/>
+                    <label id="tex" for="defaultInline2">Ida y vuelta</label>      
+
+                    <input type="checkbox" id="defaultInline2"/>
+                    <label id="tex" for="defaultInline2">Solo ida</label>   
+
+                    <input type="checkbox" id="defaultInline2"/>
+                    <label  id="tex" for="defaultInline2">Multidestino</label>
+                    </div>
+
+                    <div className="Col text-center pb-5">
+                          <div className="form-group">
+                             <input id="input" className="form-control-lg" size="20" type="text" placeholder="Caracas, Venezuela"/> 
+                             <input id="input" className="form-control-lg" size="25" type="text" placeholder="Ingresar hacia donde viaja"/>
+                             <input id="input" className="form-control-lg" size="6" type="text" placeholder="Ida"/>
+                             <input id="input" className="form-control-lg" size="6" type="text" placeholder="Vuelta"/>
+                             <input id="input"  className="form-control-lg" size="10" type="text" placeholder="1 persona"/>
+
+                             <button  type="submit" className="btn btn-Buscar">Buscar</button>                             
+                          </div>
+                       
+
+                    </div>
+                 
+                    
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
                 <Container fluid>
                     <Row>
                         <Col className="mt-0 mb-0"lg={12}><h4 className="text-center">Promoción Arcadia</h4>
